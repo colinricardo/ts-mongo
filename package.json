@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "prepare": "yarn tsc",
+    "tsc": "tsc",
+    "dev": "ts-node-dev --respawn --transpileOnly server.ts",
+    "start": "tsc && cp -r resources/textFiles build/resources && ./node_modules/nodemon/bin/nodemon.js ./build/server.js",
+    "lint": "./node_modules/tslint/bin/tslint \"**/*.ts{,x} --fix\""
+  },
+  "dependencies": {
+    "@types/express": "^4.17.0",
+    "@types/mongoose": "^5.5.7",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.3",
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.2",
+    "typescript-tslint-plugin": "^0.5.3"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.39"
+  }
+}
