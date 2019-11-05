@@ -11,7 +11,7 @@
     "@types/mongoose": "^5.5.7",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "mongoose": "^5.6.3",
+    "mongoose": "^5.7.5",
     "tslint": "^5.18.0",
     "typescript": "^3.5.2",
     "typescript-tslint-plugin": "^0.5.3"
